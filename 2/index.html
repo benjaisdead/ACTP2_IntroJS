@@ -12,8 +12,58 @@ de un segundo, al volver hacer click debe volver a estar en blanco y negro.
   <head>
     <meta charset="utf-8">
     <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+<!-- <img class="featured" src="https://picsum.photos/400/400?image=0">
 
+<div class="gallery">
+<img class="thumb" src="https://picsum.photos/400/400?image=0">
+<img class="thumb" src="https://picsum.photos/400/400?image=1">
+<img class="thumb" src="https://picsum.photos/400/400?image=2">
+<img class="thumb" src="https://picsum.photos/400/400?image=3">
+<img class="thumb" src="https://picsum.photos/400/400?image=4">
+<img class="thumb" src="https://picsum.photos/400/400?image=5">
+
+</div>
+<script>
+  $(".featured").attr("src", "https://picsum.photos/400/400?image=0")
+  $(".thumb").on("click", function (){
+   source = $(this).attr("src");
+  $(".featured").attr("src", source);
+  console.log(source);
+  })
+</script> -->
+
+<div class="gallery">
+<img class="img-gallery ga-1" src="https://picsum.photos/400/400?image=0">
+<img class="img-gallery ga-2" src="https://picsum.photos/400/400?image=1">
+<img class="img-gallery ga-3" src="https://picsum.photos/400/400?image=2">
+<img class="img-gallery ga-4" src="https://picsum.photos/400/400?image=3">
+<img class="img-gallery ga-5" src="https://picsum.photos/400/400?image=4">
+<img class="img-gallery ga-6" src="https://picsum.photos/400/400?image=5">
+</div>
+
+<script>
+  $(".ga-1").on("click", function (){
+    $(".ga-1").toggleClass('img-gallery-color');
+  })
+  $(".ga-2").on("click", function (){
+    $(".ga-2").toggleClass('img-gallery-color');
+  })
+  $(".ga-3").on("click", function (){
+    $(".ga-3").toggleClass('img-gallery-color');
+  })
+  $(".ga-4").on("click", function (){
+    $(".ga-4").toggleClass('img-gallery-color');
+  })
+  $(".ga-5").on("click", function (){
+    $(".ga-5").toggleClass('img-gallery-color');
+  })
+  $(".ga-6").on("click", function (){
+    $(".ga-6").toggleClass('img-gallery-color');
+  })
+</script>
   </body>
 </html>

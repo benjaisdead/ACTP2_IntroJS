@@ -1,0 +1,22 @@
+/* .featured{
+  width:400px;
+  height:400px;
+  display: block;
+  margin: auto;
+}
+
+.gallery{
+  margin-top:20px;
+  text-align: center;
+}
+.thumb{
+  width:100px;
+  height:100px;
+} */
+.img-gallery {
+  filter: grayscale(100%);
+  transition: 1s;
+}
+.img-gallery-color {
+  filter: grayscale(0%);
+}
